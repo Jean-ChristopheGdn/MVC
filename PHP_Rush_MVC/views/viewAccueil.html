@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<li><a href="Login"><input type="button" value=" Se déconnecter"></a></li>
+<html> 
+
+<head>
+	<title> In the Mood</title>
+</head>
+
+
+<center>
+<body style="background-image: url(https://2.bp.blogspot.com/-_H6Xmpb2TIY/Ujy8MLeLEGI/AAAAAAAAOKQ/J1mnWQVuC20/s1600/Descargar+pack+fondos+abstractos++%2528299%2529.jpg);">
+<h1 style= "color: red";>  In The Mood </h1>
+</br>
+</br>
+</br>
+
+    <div style="color:antiquewhite">
+
+    {% for article in articles %}
+
+    <h1> {{ article.title}} </h1></br>
+
+    <h2 style= "text-align: justify";     > {{ article.content}} </h2></br>
+
+    <h3 style="text-align: right;"> {{ article.author}} </h3>
+
+    {% endfor %}
+
+    </div>
+
+</body>
+
+</br>
+</br>
+</br>
+</br>
+</br>
+</center>
+<footer style=" top:95%; left:43%; color:antiquewhite "> <h2> Copyright © MesWc JGB.CORP </h2></footer>
+
+
+</html>
